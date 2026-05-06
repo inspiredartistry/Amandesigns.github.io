@@ -1,1 +1,145 @@
-# Amandesigns.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Wedding Invitations</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F4EF;
+    color: #2B2B2B;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #2B2B2B;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #7A7A7A;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 32px;
+    border: 1px solid #C6A86B;
+    color: #C6A86B;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    flex: 1;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 12px;
+    color: #7A7A7A;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+<h1>Everly Invitations</h1>
+<div>
+<a href="#">HOME</a>
+<a href="#">TEMPLATES</a>
+<a href="#">ABOUT</a>
+<a href="#">CONTACT</a>
+</div>
+</nav>
+
+<section class="hero">
+<h2>Luxury Digital Wedding Invitations</h2>
+<p>Elegant designs crafted for your unforgettable day</p>
+<a href="#" class="button">BROWSE COLLECTION</a>
+</section>
+
+<section class="section">
+<h3>Timeless Designs</h3>
+
+<div class="cards">
+<div class="card">Minimal & Modern</div>
+<div class="card">Romantic Florals</div>
+<div class="card">Classic Elegance</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Everly Invitations
+</footer>
+
+</div>
+
+</body>
+</html>
